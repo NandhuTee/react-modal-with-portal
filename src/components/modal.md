@@ -50,7 +50,7 @@ return (
     <button onClick={openModal}>Open Modal</button>
 
 ```
-- **```html <h1>:``` **: Displays a heading.
+- **<h1>:**: Displays a heading.
 - **&lt;button onClick={openModal}&gt;Open Modal&lt;/button&gt;**:
   - When clicked, it triggers openModal, which sets isModalOpen = true, making the modal visible.
 
