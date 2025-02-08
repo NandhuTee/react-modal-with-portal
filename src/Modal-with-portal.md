@@ -224,3 +224,4 @@ React App
 
  **Event Handling:** Maintains natural event bubbling even when rendered outside the DOM.issues commonly faced with modals, tooltips, and popups.
 Rendered
+[Shared ChatGPT Link](https://chatgpt.com/share/67a75c63-89d0-8011-b95a-7bfa8c03c14b)
