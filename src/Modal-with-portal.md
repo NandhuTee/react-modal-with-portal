@@ -148,12 +148,12 @@ Now, the modal is **not confined to its parent but instead renders at the root l
 ```mathematica
 
 React App
-
+#app
 ├── App Component
 
-├── Button (Open Modal)
+        ├── Button (Open Modal)
 
-├── Modal Component (Inside App, may get clipped)
+        ├── Modal Component (Inside App, may get clipped)
 ```
 **React Modal With Portal (Correct Placement)**
 
@@ -162,11 +162,12 @@ React App
 ```mathematica
 
 React App
-
+#app
 ├── App Component
 
-├── Button (Open Modal)
+    ├── Button (Open Modal)
 
+#portal-root
 ├── Modal Component (Rendered inside \`#portal-root\`, outside App)
 ```
 **Visual Flow:**
